@@ -2,11 +2,9 @@
  
 int main() {
  
-    int x, y;
+    int x, y, i = 0;
     
     scanf("%d %d", &x, &y);
-
-    int i = 0;
     
     for(i = 1; i < y; i++){
         if(i % x == 0){
@@ -17,6 +15,7 @@ int main() {
     }
 
     printf("%d\n", i);
+    
     
  
     return 0;
