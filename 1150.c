@@ -2,7 +2,7 @@
 
 int main() {
  
-    int x, z;
+    int x, z, i, contador = 1;
 
     scanf("%d", &x);
     scanf("%d", &z);
@@ -10,8 +10,6 @@ int main() {
     while(z <= x){
         scanf("%d", &z);
     }
-
-    int i, contador = 1;
 
     for(i = x + 1; i < z; i++){
         x += i;
